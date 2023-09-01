@@ -11,7 +11,7 @@ app.use((req,res,next)=>{
 });
 
 app.get('/',(_req,res)=>{
-	res.send('Hello World');
+	res.send({message:'Hello World'});
 })
 
 app.listen(port,()=>{
